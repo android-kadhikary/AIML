@@ -1,5 +1,7 @@
 # def echo():
+#     print("1st part")
 #     value = yield
+#     print("2nd part")
 #     print (value)
 #     yield
 # generator = echo()
