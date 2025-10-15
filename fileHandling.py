@@ -1,9 +1,9 @@
-# file1= open("karabi.txt","r")
-# containt = file1.read() # this is for reading full file in a string
-# print("----Reading line by line----" ,containt)
-# for line in containt:
-#     print(line)
-# file1.close()
+file1= open("karabi.txt","r")
+containt = file1.read() # this is for reading full file in a string
+print("----Reading line by line----" ,containt.strip())
+for line in containt:
+    print(line.strip())
+file1.close()
 
 # with open ("karabi.txt","r") as reader1 : # this is the best way to handle file, 
 #                                             # stored in variable reader1, IO stream

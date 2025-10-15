@@ -73,4 +73,5 @@ df2=pd.DataFrame({'city':["A","B","C"],'Sales':[2000,5000,1600]})
 pd.merge(df1,df2,key='city',how='outer')
 
 #join
-df.join()
+df1.join(df2,on='city',how='inner')
+

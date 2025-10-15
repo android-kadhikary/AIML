@@ -1,2 +1,3 @@
 list1=[1,2,6,5,"good",True]
-print(max(list1))
+list2=[1,2,6,5]
+print(max(list2))
