@@ -1,4 +1,5 @@
 {
     "python.REPL.enableREPLSmartSend": false,
-    "python.pythonPath": "firstenv\\Scripts\\python.exe"
+    "python.pythonPath": "firstenv\\Scripts\\python.exe",
+    "python.defaultInterpreterPath": "C:\\AIML\\ProjectWorkSpace\\AIML_Project\\AIML\\firstenv\\Scripts\\python.exe"
 }
